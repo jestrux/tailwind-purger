@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self';" />
+    <link rel="stylesheet" href="assets/app.css" />
+    <link rel="stylesheet" href="assets/highlighter-github.css" />
+</head>
+
+<body class="h-screen overflow-hidden text-white flex flex-col">
+    <div class="hljs flex-shrink-0 bg-black overflow-y-auto flex-1 border-solid border-0 border-b-4 border-black border-opacity-10">
+        <button id="paste" class="cursor-pointer sticky z-10 bg-green-900 text-white top-0 left-0 border-none outline-none rounded-sm py-1.5 px-4">
+            <span class="opacity-80">
+                PASTE HTML
+            </span>
+        </button>
+        <div id="input" class="h-full p-3"></div>
+    </div>
+    <div class="hljs flex-shrink-0 bg-black overflow-y-auto flex-1">
+        <button id="copy" class="cursor-pointer sticky z-10 bg-green-900 text-white top-0 left-0 border-none outline-none rounded-sm py-1.5 px-4">
+            <span class="opacity-80">
+                COPY MINIFIED CSS
+            </span>
+        </button>
+        <div id="output" class="h-full p-3"></div>
+    </div>
+
+    <script src="assets/highlighter.js"></script>
+</body>
+</html>
