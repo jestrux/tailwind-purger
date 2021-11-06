@@ -2,7 +2,6 @@
 Little app for generating purged tailwindcss from html.
 
 ## Preview
-![Tailwind Purger preview](/preview.gif?raw=true "Tailwind Purger preview")
 
 ## Download
 You can download the packaged mac from [releases](https://github.com/jestrux/tailwind-purger/releases)
