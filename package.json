@@ -1,12 +1,12 @@
 {
   "name": "tailwind-purger",
   "productName": "Tailwind Purger",
-  "version": "1.1.0",
+  "version": "1.0.0",
   "main": "main.js",
   "license": "MIT",
   "scripts": {
     "start": "electron main.js",
-    "package": "electron-packager ./ --platform=darwin --arch=x64 --icon=assets/icon.png --ignore=preview.gif"
+    "package": "electron-packager ./ --platform=darwin --arch=x64 --icon=assets/icon.png --ignore=preview.mp4"
   },
   "dependencies": {
     "clean-css": "^5.2.2",
