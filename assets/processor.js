@@ -2,7 +2,11 @@ const postcss = require('postcss');
 const tailwind = require('tailwindcss');
 
 module.exports = async function(content) {
-  const input = '@tailwind utilities';
+  const input = `
+    @tailwind base;
+    @tailwind components;
+    @tailwind utilities;
+  `;
 
   const config = {
     purge: {
